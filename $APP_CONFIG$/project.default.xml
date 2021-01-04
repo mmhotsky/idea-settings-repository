@@ -1,0 +1,24 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="AutoImportSettings">
+        <option name="autoReloadType" value="ALL" />
+      </component>
+      <component name="MavenImportPreferences">
+        <option name="generalSettings">
+          <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="true" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="importingSettings">
+          <MavenImportingSettings>
+            <option name="vmOptionsForImporter" value="-Xmx768m" />
+          </MavenImportingSettings>
+        </option>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

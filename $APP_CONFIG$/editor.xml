@@ -1,0 +1,11 @@
+<application>
+  <component name="DefaultFont">
+    <option name="FONT_SIZE" value="16" />
+  </component>
+  <component name="EditorSettings">
+    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+  </component>
+  <component name="JavaCodeFoldingSettings">
+    <option name="collapseOneLineMethods" value="false" />
+  </component>
+</application>
