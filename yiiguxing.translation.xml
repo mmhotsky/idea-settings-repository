@@ -1,9 +1,11 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="592" />
+    <option name="newTranslationDialogWidth" value="588" />
     <option name="newTranslationDialogX" value="1146" />
     <option name="newTranslationDialogY" value="631" />
     <histories>
+      <item value="详情" />
+      <item value="介绍" />
       <item value="待上架" />
       <item value="审核中" />
       <item value="已下架" />
