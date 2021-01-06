@@ -1,9 +1,10 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="572" />
+    <option name="newTranslationDialogWidth" value="570" />
     <option name="newTranslationDialogX" value="1325" />
     <option name="newTranslationDialogY" value="693" />
     <histories>
+      <item value="规则" />
       <item value="Constraint Violation" />
       <item value="ConstraintViolation" />
       <item value="换货" />
@@ -53,7 +54,6 @@
       <item value="不需要" />
       <item value="产品认证" />
       <item value="onlyrefund" />
-      <item value="great, test pass" />
     </histories>
     <option name="languageScores">
       <map>
