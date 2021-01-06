@@ -1,9 +1,14 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="578" />
-    <option name="newTranslationDialogX" value="1146" />
-    <option name="newTranslationDialogY" value="631" />
+    <option name="newTranslationDialogWidth" value="574" />
+    <option name="newTranslationDialogX" value="1325" />
+    <option name="newTranslationDialogY" value="693" />
     <histories>
+      <item value="换货" />
+      <item value="退货" />
+      <item value="退货并退款" />
+      <item value="退货退款" />
+      <item value="退货货物并退款" />
       <item value="签收" />
       <item value="实体" />
       <item value="实物" />
