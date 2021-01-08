@@ -56,6 +56,9 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="shift alt p" />
   </action>
+  <action id="Git.Stash">
+    <keyboard-shortcut first-keystroke="shift alt s" />
+  </action>
   <action id="GotoFile" />
   <action id="Images.Thumbnails.Hide">
     <keyboard-shortcut first-keystroke="ctrl f4" />
@@ -75,6 +78,7 @@
   <action id="TableResult.UnselectPreviousOccurrence" />
   <action id="UnselectPreviousOccurrence" />
   <action id="WD.UploadCurrentRemoteFileAction" />
+  <action id="context.save" />
   <action id="hg4idea.QPushAction" />
   <action id="ink.organics.pojo2json.POJO2JsonAction">
     <keyboard-shortcut first-keystroke="shift alt j" />
