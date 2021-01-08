@@ -1,36 +1,9 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="564" />
-    <option name="newTranslationDialogX" value="1325" />
-    <option name="newTranslationDialogY" value="693" />
+    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogX" value="1146" />
+    <option name="newTranslationDialogY" value="631" />
     <histories>
-      <item value="增量更新" />
-      <item value="增量" />
-      <item value="代收地址" />
-      <item value="代收" />
-      <item value="普通&#10;一般的" />
-      <item value="普通&#10;一般" />
-      <item value="普通&#10;" />
-      <item value="普通" />
-      <item value="规则" />
-      <item value="Constraint Violation" />
-      <item value="ConstraintViolation" />
-      <item value="换货" />
-      <item value="退货" />
-      <item value="退货并退款" />
-      <item value="退货退款" />
-      <item value="退货货物并退款" />
-      <item value="签收" />
-      <item value="实体" />
-      <item value="实物" />
-      <item value="虚拟" />
-      <item value="协议" />
-      <item value="实时" />
-      <item value="详情" />
-      <item value="介绍" />
-      <item value="待上架" />
-      <item value="审核中" />
-      <item value="已下架" />
       <item value="多选框" />
       <item value="已审核" />
       <item value="一次性付款" />
@@ -54,6 +27,17 @@
       <item value="起卖" />
       <item value="禁卖" />
       <item value="草稿" />
+      <item value="电商商品" />
+      <item value="单选框" />
+      <item value="单选" />
+      <item value="非必选" />
+      <item value="必选" />
+      <item value="不需要" />
+      <item value="产品认证" />
+      <item value="onlyrefund" />
+      <item value="great, test pass" />
+      <item value="urgent" />
+      <item value="hh" />
     </histories>
     <option name="languageScores">
       <map>
@@ -63,6 +47,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1609835785379" />
+    <option name="lastTrimTime" value="1609214774890" />
   </component>
 </application>
