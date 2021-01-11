@@ -1,0 +1,52 @@
+<templateSet group="Java">
+  <template name="lbd" value="&#10;@Data&#10;@NoArgsConstructor&#10;@AllArgsConstructor&#10;@Builder" description="实体类头部声明" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="lbp" value="&#10;@JsonProperty&#10;@ApiModelProperty(value = &quot;$CLIPBOARD$，必填&quot;)&#10;@NotBlank(message = &quot;$CLIPBOARD$，不能为空&quot;)" description="实体类属性声明" toReformat="false" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="lbpd" value="&#10;@JsonProperty&#10;@JsonFormat(pattern = &quot;yyyy-MM-dd HH:mm:ss&quot;, timezone = &quot;GMT+8&quot;)&#10;@ApiModelProperty(value = &quot;$CLIPBOARD$。格式为:yyyy-MM-dd HH:mm:ss，必填&quot;)&#10;@NotNull(message = &quot;$CLIPBOARD$，不能为空&quot;)" description="实体类日期属性声明" toReformat="false" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="lbpn" value="&#10;@JsonProperty&#10;@ApiModelProperty(value = &quot;$CLIPBOARD$，必填&quot;)&#10;@NotNull(message = &quot;$CLIPBOARD$，不能为空&quot;)" description="实体类属性声明" toReformat="false" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="emd" value="&#10;@Getter&#10;@ToString&#10;@RequiredArgsConstructor&#10;@JsonFormat(shape = JsonFormat.Shape.OBJECT)" description="枚举类头部声明" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="emof" value="&#10;@SneakyThrows&#10;@JsonCreator&#10;public static $CLASS_NAME$ of(@JsonProperty String code) {&#10;    return Arrays.stream(values()).filter(o -&gt; o.code.equals(code)).findFirst().orElseThrow(IllegalArgumentException::new);&#10;}&#10;" description="枚举类of方法" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="emscm" value="&#10;    NO(&quot;0&quot;, &quot;否&quot;),&#10;    YES(&quot;1&quot;, &quot;是&quot;),&#10;" description="枚举类String类型code和message" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="emicm" value="&#10;    NO(0, &quot;否&quot;),&#10;    YES(1, &quot;是&quot;),&#10;" description="枚举类Integer类型code和message" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="emp" value="&#10;    NO(&quot;0&quot;, &quot;否&quot;),&#10;    YES(&quot;1&quot;, &quot;是&quot;),&#10;    ;&#10;&#10;    private final String code;&#10;&#10;    private final String message;&#10;&#10;    @JsonValue&#10;    public String getCode() {&#10;        return code;&#10;    }&#10;&#10;    @SneakyThrows&#10;    @JsonCreator&#10;    public static $CLASS_NAME$ of(@JsonProperty String code) {&#10;        return Arrays.stream(values()).filter(o -&gt; o.code.equals(code)).findFirst().orElseThrow(IllegalArgumentException::new);&#10;    }&#10;" description="枚举类属性和方法声明" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
