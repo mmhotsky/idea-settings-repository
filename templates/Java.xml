@@ -49,18 +49,18 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="lgd" value="&#10;private static final String CLASS_NAME = ClassUtils.getShortName($CLASS_NAME$.class);" description="类顶部CLASSNAME声明" toReformat="false" toShortenFQNames="true">
+  <template name="logd" value="&#10;private static final String CLASS_NAME = ClassUtils.getShortName($CLASS_NAME$.class);" description="类顶部CLASSNAME声明" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="lgv" value="&#10;String logPrefix = CLASS_NAME + &quot;.()&quot;;" description="类方法声明" toReformat="false" toShortenFQNames="true">
+  <template name="logv" value="&#10;String logPrefix = CLASS_NAME + &quot;.()&quot;;" description="类方法声明" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="lgp" value="&#10;log.debug(&quot;{}, $CLIPBOARD$: {}&quot;, logPrefix, $CLIPBOARD$);" description="类方法日志" toReformat="false" toShortenFQNames="true">
+  <template name="logp" value="&#10;log.debug(&quot;{}, $CLIPBOARD$: {}&quot;, logPrefix, $CLIPBOARD$);" description="类方法日志" toReformat="false" toShortenFQNames="true">
     <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
