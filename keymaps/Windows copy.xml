@@ -24,6 +24,8 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
+  <action id="Compile" />
+  <action id="CompileFile" />
   <action id="ConvertToUnixLineSeparators">
     <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
@@ -70,12 +72,16 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
+  <action id="MakeModule">
+    <keyboard-shortcut first-keystroke="shift ctrl f9" />
+  </action>
   <action id="NewClass">
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
+  <action id="PackageFile" />
   <action id="QuickChangeScheme" />
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="alt j" />
