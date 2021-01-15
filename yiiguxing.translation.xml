@@ -4,6 +4,8 @@
     <option name="newTranslationDialogX" value="1146" />
     <option name="newTranslationDialogY" value="631" />
     <histories>
+      <item value="internally" />
+      <item value="Alternatively" />
       <item value="username, password, requestTime" />
       <item value="多选框" />
       <item value="已审核" />
