@@ -4,6 +4,11 @@
     <keyboard-shortcut first-keystroke="ctrl insert" />
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="shift insert" />
@@ -13,6 +18,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl z" />
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="shift alt z" />
+  </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
@@ -32,11 +41,17 @@
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="shift alt z" />
+  </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="alt z" />
@@ -48,6 +63,11 @@
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="shift ctrl j" />
     <keyboard-shortcut first-keystroke="shift alt x" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="alt f3" />
+    <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="GeneratePOJOAction">
     <keyboard-shortcut first-keystroke="alt s" />
