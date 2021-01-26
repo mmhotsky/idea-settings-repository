@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="1146" />
     <option name="newTranslationDialogY" value="631" />
     <histories>
+      <item value="Returns true if the second list is a permutation of the first." />
       <item value="internally" />
       <item value="Alternatively" />
       <item value="username, password, requestTime" />
@@ -50,6 +51,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1610531627865" />
+    <option name="lastTrimTime" value="1611626934664" />
   </component>
 </application>
